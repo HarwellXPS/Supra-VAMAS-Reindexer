@@ -11,9 +11,13 @@ Full credit is given to them for the initial version
    It works well when you have many scans and have to manually set the index of each block to the same row for each sample.
    
 ## Comments:
-  v1.0 is set up so that you can compile it with pyinstaller and run a standalone .exe <br />
+  v1.0 is set up so that you can compile it with pyinstaller (with --onfile option) and run a standalone .exe <br />
   Python Version: 3.6.1<br />
+  Note the python executable is significantly larger than the original CLI version
+  A compressed expecutable is also included in the repository
 
   
 ## Instructions for use:
-  1. TBC
+  1. Run the Python script and select directory containing your VMS files
+  2. Re-indexed files will be saved with the prefix ReIndexed_
+  3. Alternatively Use the pre-comiled EXE file
