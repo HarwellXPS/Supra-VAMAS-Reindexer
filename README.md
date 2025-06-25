@@ -12,10 +12,11 @@ Full credit is given to them for the initial version.
 ## Comments:
   v1.0 is set up so that you can compile it with pyinstaller (with --onfile option) and run a standalone .exe <br />
   Python Version: 3.6.1<br />
+  Uses numpy and tkinter<br />
   Note the python executable is significantly larger than the original CLI version
   An executable is also included in the repository
   
 ## Instructions for use:
   1. Run the Python script and select directory containing your VMS files
   2. Re-indexed files will be saved with the prefix ReIndexed_
-  3. Alternatively Use the pre-comiled EXE file
+  3. Alternatively Use the pre-compiled EXE file
